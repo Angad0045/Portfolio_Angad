@@ -35,7 +35,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="h-auto w-screen bg-gradient-to-b from-neutral-950 to-neutral-900 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32">
+    <div className="h-auto w-screen bg-gradient-to-b from-black to-neutral-900 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32">
       <div className="grid grid-cols-1 lg:grid-cols-4">
         {/* Left Section */}
         <div className="lg:col-span-2 text-white flex flex-col justify-center p-6 sm:p-8 lg:p-10">

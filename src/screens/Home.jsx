@@ -1,8 +1,7 @@
-import LiquidChrome from "../ui_components/LiquidChrome";
+import Beams from "../ui_components/Beams";
 import LogoLoop from "../ui_components/LoopLoop";
 import GlareHover from "../ui_components/GlareHover";
 import SplitText from "../ui_components/SplitText";
-import Navbar from "../components/Navbar";
 import {
   SiReact,
   SiNextdotjs,
@@ -45,11 +44,15 @@ const Home = ({ onContactClick }) => {
       {/* BackGround */}
       <div className="relative max-w-screen h-svh">
         <div style={{ width: "100%", height: "100%", opacity: "70%" }}>
-          <LiquidChrome
-            baseColor={[0.0, 0.0, 0.1]}
-            speed={1}
-            amplitude={0.5}
-            interactive={false}
+          <Beams
+            beamWidth={3}
+            beamHeight={30}
+            beamNumber={20}
+            lightColor="#155dfc"
+            speed={4}
+            noiseIntensity={1.75}
+            scale={0.1}
+            rotation={30}
           />
         </div>
       </div>
@@ -146,7 +149,7 @@ const Home = ({ onContactClick }) => {
             </button>
           </div>
         </div>
-        <div className="relative -bottom-40 max-w-screen h-20 flex md:hidden xl:flex items-center overflow-hidden">
+        <div className="relative -bottom-36 max-w-screen h-20 flex md:hidden xl:flex items-center overflow-hidden">
           <LogoLoop
             logos={techLogos}
             speed={120}

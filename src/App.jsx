@@ -12,7 +12,7 @@ function App() {
   };
   return (
     <>
-      <div className="flex flex-col font-red-hat-display bg-neutral-950">
+      <div className="flex flex-col font-red-hat-display bg-black">
         <Home onContactClick={scrollToContact} />
         <About />
         <Projects />
