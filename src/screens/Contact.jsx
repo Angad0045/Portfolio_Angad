@@ -1,6 +1,6 @@
+import GlareHover from "../ui_components/GlareHover";
 import { SiGithub, SiLinkedin } from "react-icons/si";
 import { Mail, MapPinIcon, Phone } from "lucide-react";
-import GlareHover from "../ui_components/GlareHover";
 import { useState } from "react";
 
 const Contact = () => {
